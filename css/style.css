@@ -1,0 +1,69 @@
+.StartGame {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background: #7C83FD;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .StartGame h1 {
+    font-size: 40px; }
+  .StartGame button {
+    padding: 15px 25px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background: #5EAAA8;
+    color: #fff;
+    cursor: pointer; }
+
+section {
+  max-width: 650px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 0; }
+  section .info {
+    width: 100%;
+    margin-bottom: 20px; }
+    section .info .WinBorder {
+      width: 0px;
+      height: 10px;
+      background: red;
+      border-radius: 20px;
+      -webkit-transition: .5s;
+      transition: .5s; }
+  section .block {
+    width: 100px;
+    cursor: pointer;
+    z-index: 999; }
+    section .block img {
+      width: 100%;
+      z-index: 999; }
